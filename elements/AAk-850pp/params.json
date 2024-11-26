@@ -1,0 +1,76 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Calendar Tool",
+    "fields": {
+        "AAl": {
+            "caption": "Month Date",
+            "editor": "DynamicValue",
+            "name": "month_date",
+            "rank": 0,
+            "value": "date"
+        },
+        "AAu": {
+            "caption": "Time Date",
+            "doc": "Date in YYYY-MM-DD format",
+            "editor": "DynamicValue",
+            "name": "time_date",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "Time Interval",
+            "default_val": 60,
+            "doc": "Interval in Minutes",
+            "editor": "DynamicValue",
+            "name": "time_interval",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-calendar",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ABC": {
+            "caption": "List of Dates",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "list_of_dates",
+            "value": "date"
+        },
+        "ABD": {
+            "caption": "List of Times",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "list_of_times",
+            "value": "date"
+        },
+        "ABE": {
+            "caption": "Start of month",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "start_of_month",
+            "value": "date"
+        },
+        "ABF": {
+            "caption": "End of Month",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "end_of_month",
+            "value": "date"
+        }
+    }
+}

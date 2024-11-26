@@ -1,0 +1,15 @@
+{
+    "assets": {
+        "AAP": {
+            "name": "moment-tz.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1561992998300x610379444109441900/moment-timezone-with-data-10-year-range.js"
+        },
+        "AAQ": {
+            "name": "moment.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1561993372196x388490209171087550/moment.min.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}
